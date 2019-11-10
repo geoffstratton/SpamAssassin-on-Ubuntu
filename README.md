@@ -2,7 +2,7 @@
 
 ### Note: This article pertains to Ubuntu 12, and it applies to versions of Ubuntu or Debian that use init rather than systemd. To install SpamAssassin on Ubuntu 15+, see the [instructions here](Ubuntu15.md).
 
-In our previous installment, we set up a Postfix and Dovecot mail server with virtual domains and users on Ubuntu 12.04. It works really well. It works so well that everybody wants to use our new mail server to sell Viagra and cheap home loans. Enough. Let's set up the SpamAssassin anti-spam system to eliminate all the junk mail.
+In our [previous installment](https://github.com/geoffstratton/Ubuntu-Email-Server), we set up a Postfix and Dovecot mail server with virtual domains and users on Ubuntu 12.04. It works really well. It works so well that everybody wants to use our new mail server to sell Viagra and cheap home loans. Enough. Let's set up the SpamAssassin anti-spam system to eliminate all the junk mail.
 
 ### Step 1: Install SpamAssassin and its client
 
