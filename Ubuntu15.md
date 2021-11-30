@@ -69,7 +69,8 @@ Edit /etc/postfix/master.cf and add a content filter to your SMTP server:
 
 ```ini
 smtp      inet  n       -       -       -       -       smtpd
-        -o content_filter=spamassassin
+  -o content_filter=spamassassin
+  -o smtpd_sasl_auth_enable=no
 ```
 
 Still in /etc/postfix/master.cf, add this to the end of the file:
